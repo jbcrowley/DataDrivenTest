@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="2" result="Passed" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="2" engine-version="3.7.0.0" clr-version="4.0.30319.42000" start-time="2018-09-21 01:42:31Z" end-time="2018-09-21 01:42:38Z" duration="7.103820">
+  <command-line><![CDATA[C:\Users\Jeff\Source\Repos\DataDrivenTest\packages\NUnit.ConsoleRunner.3.7.0\tools\nunit3-console.exe  C:\Users\Jeff\Source\Repos\DataDrivenTest\DataDrivenTest\bin\x86\Debug\DataDrivenTest.dll --where "class==DataDrivenTest.UnitTest1" --workers:4 --result:C:\Users\Jeff\Source\Repos\DataDrivenTest\Results\DataDrivenTest_2018.09.20_20.42.31.xml]]></command-line>
+  <filter>
+    <class>DataDrivenTest.UnitTest1</class>
+  </filter>
+  <test-suite type="Assembly" id="0-1005" name="DataDrivenTest.dll" fullname="C:\Users\Jeff\Source\Repos\DataDrivenTest\DataDrivenTest\bin\x86\Debug\DataDrivenTest.dll" runstate="Runnable" testcasecount="2" result="Passed" start-time="2018-09-21 01:42:32Z" end-time="2018-09-21 01:42:38Z" duration="6.204468" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+    <environment framework-version="3.7.1.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.17134.0" platform="Win32NT" cwd="C:\Users\Jeff\Source\Repos\DataDrivenTest" machine-name="BIG-COMPUTER" user="Jeff" user-domain="BIG-COMPUTER" culture="en-US" uiculture="en-US" os-architecture="x86" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\Users\Jeff\Source\Repos\DataDrivenTest" />
+      <setting name="NumberOfTestWorkers" value="4" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.7.1" />
+      <setting name="ImageRequiresX86" value="True" />
+      <setting name="RunAsX86" value="True" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+    </settings>
+    <properties>
+      <property name="_PID" value="7332" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <test-suite type="TestSuite" id="0-1006" name="DataDrivenTest" fullname="DataDrivenTest" runstate="Runnable" testcasecount="2" result="Passed" start-time="2018-09-21 01:42:32Z" end-time="2018-09-21 01:42:38Z" duration="6.188015" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+      <test-suite type="ParameterizedFixture" id="0-1004" name="UnitTest1" fullname="DataDrivenTest.UnitTest1" runstate="Runnable" testcasecount="2" result="Passed" start-time="2018-09-21 01:42:32Z" end-time="2018-09-21 01:42:38Z" duration="6.183913" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+        <test-suite type="TestFixture" id="0-1000" name="UnitTest1(System.Data.DataRowView)" fullname="DataDrivenTest.UnitTest1(System.Data.DataRowView)" classname="DataDrivenTest.UnitTest1" runstate="Runnable" testcasecount="1" result="Passed" start-time="2018-09-21 01:42:32Z" end-time="2018-09-21 01:42:38Z" duration="6.136427" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <properties>
+            <property name="ParallelScope" value="Children" />
+          </properties>
+          <test-case id="0-1001" name="TestMethod1" fullname="DataDrivenTest.UnitTest1(System.Data.DataRowView).TestMethod1" methodname="TestMethod1" classname="DataDrivenTest.UnitTest1" runstate="Runnable" seed="1551126062" result="Passed" start-time="2018-09-21 01:42:32Z" end-time="2018-09-21 01:42:38Z" duration="6.125715" asserts="1" />
+        </test-suite>
+        <test-suite type="TestFixture" id="0-1002" name="UnitTest1(System.Data.DataRowView)" fullname="DataDrivenTest.UnitTest1(System.Data.DataRowView)" classname="DataDrivenTest.UnitTest1" runstate="Runnable" testcasecount="1" result="Passed" start-time="2018-09-21 01:42:32Z" end-time="2018-09-21 01:42:38Z" duration="6.173086" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <properties>
+            <property name="ParallelScope" value="Children" />
+          </properties>
+          <test-case id="0-1003" name="TestMethod1" fullname="DataDrivenTest.UnitTest1(System.Data.DataRowView).TestMethod1" methodname="TestMethod1" classname="DataDrivenTest.UnitTest1" runstate="Runnable" seed="1697376185" result="Passed" start-time="2018-09-21 01:42:32Z" end-time="2018-09-21 01:42:38Z" duration="6.169328" asserts="1" />
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
