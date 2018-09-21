@@ -1,0 +1,1 @@
+This is here as a placeholder so the Results folder doesn't get deleted.
